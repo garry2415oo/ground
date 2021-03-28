@@ -9,7 +9,7 @@ function setup(){
     var canvas = createCanvas(400,400);
     engine = Engine.create();
     world = engine.world;
-    ground=new Ground(200,300,400,50);
+    ground=new Ground(200,380,400,50);
     box1 = new Box(200,300,50,50);
 }
 
